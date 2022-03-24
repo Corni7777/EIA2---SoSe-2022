@@ -7,19 +7,23 @@ namespace RandomPoem {
         //console.log(index);
         console.log(getVerse(subjects, predicates, objects));
     }
-    function getVerse (_subjects: string[], _verbs: string[], _objects: string[] ): string {
+    function getVerse (_subjects: string[], _predicates: string[], _objects: string[] ): string {
         //return "test";
+        _subjects = subjects;
+        _predicates = predicates;
+        _objects = objects;
+
         let verse: string = "";
         let randomSubject: number = Math.floor(Math.random() * subjects.length);
         let randomPredicate: number = Math.floor(Math.random() * predicates.length);
         let randomObject: number = Math.floor(Math.random() * objects.length);
         //console.log(randomSubject);
 
-        verse = subjects[randomSubject] + " " + predicates[randomPredicate] + " " + objects[randomObject];
+        verse = _subjects[randomSubject] + " " + _predicates[randomPredicate] + " " + _objects[randomObject];
 
-        subjects.splice(randomSubject, 1);
-        predicates.splice(randomPredicate, 1);
-        objects.splice(randomObject, 1);
+        _subjects.splice(randomSubject, 1);
+        _predicates.splice(randomPredicate, 1);
+        _objects.splice(randomObject, 1);
 
         return verse;
     }
