@@ -39,4 +39,4 @@ var Boxes;
         }
     }
 })(Boxes || (Boxes = {}));
-//# sourceMappingURL=boxesScript.js.map
+//# sourceMappingURL=BoxesScript.js.map
