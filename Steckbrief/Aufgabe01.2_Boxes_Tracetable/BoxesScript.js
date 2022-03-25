@@ -1,7 +1,6 @@
 var Boxes;
 (function (Boxes) {
-    window.addEventListener("load", handleLoad);
-    function handleLoad() {
+    window.addEventListener("load", function () {
         var n = 5;
         var color;
         var x = 0;
@@ -37,6 +36,6 @@ var Boxes;
             div.style.left = _x + "px";
             div.style.top = _y + "px";
         }
-    }
+    });
 })(Boxes || (Boxes = {}));
 //# sourceMappingURL=BoxesScript.js.map

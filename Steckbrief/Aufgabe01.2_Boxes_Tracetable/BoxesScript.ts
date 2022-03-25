@@ -1,6 +1,5 @@
 namespace Boxes {
-    window.addEventListener("load", handleLoad);
-    function handleLoad(): void {
+    window.addEventListener("load", function(): void {
 
     let n: number = 5;
     let color: string;
@@ -40,5 +39,5 @@ namespace Boxes {
         div.style.left = _x + "px";
         div.style.top = _y + "px";
     }
-}
+});
 }
