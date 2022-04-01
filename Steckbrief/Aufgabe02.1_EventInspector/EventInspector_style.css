@@ -1,0 +1,26 @@
+#div0 {
+    position: absolute;
+    border-width: 2px;
+    border-color: black;
+    border-style: solid;
+    width: 40%;
+    height: 50%;
+    margin-left: 5%;
+    margin-top: 5%;
+}
+#div1 {
+    position: absolute;
+    border-width: 2px;
+    border-color: black;
+    border-style: solid;
+    width: 40%;
+    height: 50%;
+    margin-left: 55%;
+    margin-top: 5%;
+}
+#mouseinfo {
+    position: fixed;
+    display: block;
+    border: 1px, solid, black;
+    z-index: 2;
+}
