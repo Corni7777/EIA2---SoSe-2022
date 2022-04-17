@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Memory</title>
+    <script src="memory_script.js"></script>
+    <link rel="stylesheet" href="memory_style.css">
+</head>
+<body>
+    <h1>Memory</h1>
+    <div id="wrapper">
+        <form id="settings">
+            <fieldset>
+                <legend>Number of pairs</legend>
+                <input type="number" name ="pairs" step="1" min="5" max="25" value="5">
+                <label for="pairs"></label>
+            </fieldset>
+            <fieldset>
+                <legend>Size of Cards</legend>
+                10px
+                <input type="range" name="cardsize" min="10" max="100" step="10" >
+                100px
+            </fieldset>
+            <fieldset>
+                <legend>Colors</legend>
+                Background color:
+                <input type="color" name="backgroundcolor"  value="#0122ff">
+                <hr />
+                Cardback color:
+                <input type="color" name="cardbackcolor"  value="#ff8800">
+                <hr />
+                Font color:
+                <input type="color" name="fontcolor"  value="#000000">
+            </fieldset>
+            <fieldset>
+                <legend>Fonts</legend>
+                <input type="radio" name="fonts" value="Courier New" id="couriernew" />
+                <label for="couriernew" id="courir">Courier New</label>
+                <input type="radio" name="fonts" value="Bahnschrift" id="bahnschrift" checked/>
+                <label for="bahnschrift" id="bahn">Bahnschrift</label>
+                <input type="radio" name="fonts" value="Arial" id="arial" />
+                <label for="arial" id="ar">Arial</label>
+            </fieldset>
+        </form>
+        <input type="submit"  id="button" value="Push to start!">
+
+    </div>
+    
+</body>
+</html>

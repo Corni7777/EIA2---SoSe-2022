@@ -1,0 +1,94 @@
+body {
+    font-family: "Bahnschrift";
+}
+h1 {
+    text-align: center;
+}
+
+legend {
+    text-align: center;
+    font-weight: bold;
+}
+
+fieldset {
+    text-align: center;
+    margin-top: 7px;
+
+}
+
+fieldset.color {
+    text-align: center;
+}
+input:hover{
+    cursor: pointer;
+}
+label:hover{
+    cursor: pointer;
+}
+#wrapper {
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#button {
+    background-color: rgb(22, 22, 219);
+    text-align: center;
+
+    margin-top: 10px;
+    width: 100%;
+    height: 50px;
+    color: white;
+    border-style: inset;
+}
+#button:hover{
+    cursor: pointer;
+    border-style: outset;
+    background-color: rgb(12, 12, 122);
+}
+
+.card {
+    float: left;
+    text-align: center;
+    margin-left: 1%;
+    margin-top: 5px;
+    border-style: solid;
+}
+.card:hover {
+    cursor: pointer;
+    border-style: outset;
+
+}
+.back {
+    font-size: 0;
+}
+
+.hidden {
+    visibility: hidden;
+}
+
+.displayvalue {
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    z-index: 2;
+}
+
+.timer {
+    position: absolute;
+    float: right;
+    right: 5%;
+    top: 30px;
+
+}
+#courir {
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bolder;
+}
+#bahn {
+    font-family: "Bahnschrift";
+    font-weight: "semi-bold";
+}
+#ar {
+    font-family: Arial, Helvetica, sans-serif;
+}
