@@ -1,4 +1,8 @@
-namespace L03_1_memory {
+ namespace L03_1_memory {
+     // Name: Cornelius Schill
+     // Matrikelnummer: 269357
+     // Datum(erstes Mal hochgeladen): 17.04.2022
+     // Zusätzl. Quellen: Silvan, Anja
 
     interface Card {
         value: string;
