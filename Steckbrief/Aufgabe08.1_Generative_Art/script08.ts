@@ -1,4 +1,8 @@
 namespace GenerativeArt08 {
+    // Name: Cornelius Schill
+    // Matrikelnummer: 269357
+    // Datum(erstes Mal hochgeladen): 07.05.2022
+    // Zusätzl. Quellen: Silvan
     window.addEventListener("load", hndLoad);
 
     let canvas: HTMLCanvasElement;
@@ -85,5 +89,5 @@ namespace GenerativeArt08 {
     }
     function newPainting(): void {
         hndLoad();
-    } 
+    }
 }
