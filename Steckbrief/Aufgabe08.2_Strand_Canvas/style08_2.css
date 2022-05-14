@@ -1,13 +1,9 @@
 canvas {
-    border-width: 3px;
-    border-color: black;
-    border-style: solid;
-    position: relative;
-    margin-left: auto;
-    margin-right: auto;
+    width: 100%;
+
 }
 .format {
-    width: 640px;
+    width: 80%;
     position: relative;
     margin-left: auto;
     margin-right: auto;
