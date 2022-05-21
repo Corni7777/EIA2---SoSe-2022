@@ -1,0 +1,47 @@
+img {
+    width: 100%;
+    opacity: 85%;
+
+}
+@font-face {
+    font-family: Country Cafe;
+    src: url(CountryCafeCaps-XxJj.otf);
+}
+.format {
+    z-index: 4;
+    position: absolute;
+    text-align: center;
+    left: 50%;
+    transform: translate(-50%, -3%);
+    font-family: "Country Cafe";
+}
+h1 {
+    text-align: center;
+    font-family: "Country Cafe";
+    font-size: 48px;
+    font-weight: bold;
+    letter-spacing: 5px;
+    margin-bottom: 10px;
+}
+button {
+    font-family: "Country Cafe";
+    width: 100px;
+    height: 40px;
+    border-width: 4px;
+    background-color: transparent;
+    font-size: 22px;
+}
+button:hover {
+    cursor: pointer;
+    border-width: 5px;
+}
+#content {
+    font-family: "Country Cafe";
+    column-count: 5;
+    width: 100%;
+    column-width: 120px;
+    column-gap: 30px;
+    column-fill: balance;
+    height: 360px;
+    
+}
