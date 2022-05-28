@@ -2,12 +2,10 @@ namespace BeachClasses09_2 {
     export class Towel {
         position: Vector;
         color: string;
-        personRotation: number;
 
         constructor(_position: Vector, _color: string) {
             this.position = _position;
             this.color = _color;
-            this.personRotation = 4.5;
         }
 
         draw(): void {
