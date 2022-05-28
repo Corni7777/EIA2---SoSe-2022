@@ -1,0 +1,21 @@
+namespace BeachClasses09_2 {
+    export class Towel {
+        position: Vector;
+        color: string;
+        personRotation: number;
+
+        constructor(_position: Vector, _color: string) {
+            this.position = _position;
+            this.color = _color;
+            this.personRotation = 4.5;
+        }
+
+        draw(): void {
+            crc2.save();
+            crc2.translate(this.position.x, this.position.y);
+            crc2.fillStyle = this.color;
+            crc2.fillRect(0, 0, 40, 20);
+            crc2.restore();
+        }
+    }
+}
