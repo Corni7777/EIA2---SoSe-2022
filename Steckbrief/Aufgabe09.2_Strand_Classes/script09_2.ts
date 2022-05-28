@@ -119,19 +119,6 @@ namespace BeachClasses09_2 {
         let person3: Person = new Person(pos3);
         persons.push(person3);
     }
-
-
-
-
-
-
-
-
-
-
-
-
-
     function drawBeach(): void {
         crc2.beginPath();
         crc2.moveTo(beachFG, canvas.height);
@@ -197,36 +184,5 @@ namespace BeachClasses09_2 {
         crc2.fill();
         crc2.restore();
 
-    }
-    export function drawPerson(_position: Vector, _rotation: number): void {
-        crc2.save();
-        crc2.translate(_position.x, _position.y);
-        crc2.rotate(_rotation);
-        crc2.beginPath();
-        crc2.arc(0, -23.5, 4, 0, 2 * Math.PI);
-        crc2.moveTo(-1, -25.5);
-        crc2.lineTo(-0.5, -25.5);
-        crc2.moveTo(2, -25.5);
-        crc2.lineTo(1.5, -25.5);
-        crc2.closePath();
-        crc2.lineWidth = 0.6;
-        crc2.stroke();
-        crc2.beginPath();
-        crc2.arc(-0, -23.5, 2, 0, Math.PI);
-        crc2.lineWidth = 0.7;
-        crc2.stroke();
-        crc2.beginPath();
-        crc2.moveTo(0, 0);
-        crc2.lineTo(-1.5, -10);
-        crc2.lineTo(-9, -6);
-        crc2.moveTo(-1.5, -10);
-        crc2.lineTo(-0.5, -20);
-        crc2.moveTo(-1, -15);
-        crc2.lineTo(-8, -21);
-        crc2.moveTo(-1, -15);
-        crc2.lineTo(8, -18);
-        crc2.lineWidth = 1.5;
-        crc2.stroke();
-        crc2.restore();
     }
 }
