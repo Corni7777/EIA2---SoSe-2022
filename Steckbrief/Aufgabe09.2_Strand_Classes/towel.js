@@ -4,7 +4,6 @@ var BeachClasses09_2;
         function Towel(_position, _color) {
             this.position = _position;
             this.color = _color;
-            this.personRotation = 4.5;
         }
         Towel.prototype.draw = function () {
             BeachClasses09_2.crc2.save();
