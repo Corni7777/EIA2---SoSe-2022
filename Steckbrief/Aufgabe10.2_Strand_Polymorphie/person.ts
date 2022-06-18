@@ -1,11 +1,9 @@
 namespace BeachClasses10_2 {
     export class Person extends Immovable {
-        position: Vector;
         rotation: number;
 
         constructor(_position: Vector) {
-            super(nullvector);
-            this.position = _position;
+            super(_position);
             this.rotation = 4.5;
         }
         draw(): void {

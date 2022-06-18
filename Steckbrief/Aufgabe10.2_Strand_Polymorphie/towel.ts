@@ -1,11 +1,9 @@
 namespace BeachClasses10_2 {
     export class Towel extends Immovable {
-        position: Vector;
         color: string;
 
         constructor(_position: Vector, _color: string) {
-            super(nullvector);
-            this.position = _position;
+            super(_position);
             this.color = _color;
         }
 

@@ -1,12 +1,5 @@
 namespace BeachClasses10_2 {
     export class Palm extends Immovable {
-        // position: Vector;
-
-
-        // constructor() {
-        //     this.position.x = Math.random() * 165;
-        //     this.position.y = (Math.random() * 120) + horizon;
-        // }
         draw(): void {
             //Stamm
             crc2.save();

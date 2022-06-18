@@ -20,11 +20,6 @@ var BeachClasses10_2;
         function Palm() {
             return _super !== null && _super.apply(this, arguments) || this;
         }
-        // position: Vector;
-        // constructor() {
-        //     this.position.x = Math.random() * 165;
-        //     this.position.y = (Math.random() * 120) + horizon;
-        // }
         Palm.prototype.draw = function () {
             //Stamm
             BeachClasses10_2.crc2.save();

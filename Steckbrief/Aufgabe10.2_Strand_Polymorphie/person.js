@@ -18,8 +18,7 @@ var BeachClasses10_2;
     var Person = /** @class */ (function (_super) {
         __extends(Person, _super);
         function Person(_position) {
-            var _this = _super.call(this, BeachClasses10_2.nullvector) || this;
-            _this.position = _position;
+            var _this = _super.call(this, _position) || this;
             _this.rotation = 4.5;
             return _this;
         }

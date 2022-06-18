@@ -18,8 +18,7 @@ var BeachClasses10_2;
     var Towel = /** @class */ (function (_super) {
         __extends(Towel, _super);
         function Towel(_position, _color) {
-            var _this = _super.call(this, BeachClasses10_2.nullvector) || this;
-            _this.position = _position;
+            var _this = _super.call(this, _position) || this;
             _this.color = _color;
             return _this;
         }

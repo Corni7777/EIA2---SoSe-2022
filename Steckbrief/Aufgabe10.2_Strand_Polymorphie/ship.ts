@@ -1,8 +1,5 @@
 namespace BeachClasses10_2 {
     export class Ship extends Movable {
-        position: Vector;
-        velocity: Vector;
-        name: string;
 
         constructor() {
             super(nullvector, nullvector);
